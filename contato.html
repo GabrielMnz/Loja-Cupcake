@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<title>Cupcake</title>
+
+</head>
+
+<body>
+<header>
+	<div class="header">
+		<h1>
+			Web <span class="branco">Cup</span>cake's
+		</h1>
+	</div>
+		
+	<div>
+		<a href="index.html">Home</a>
+		<a href="cupcakes.html">Cupcake's</a>
+		<a href="contato.html">Contato</a>
+	</div>
+	<hr>
+</header>
+  <div class="container">
+	  <div class="row">
+			<h3>Encomenda</h3>
+		  <img src="Imagens/pedidos1.jpg" width="img-fluid" alt="pedidos">
+		  <p class="monospace">
+		  <b>email: </b>cupcakecontato@email.com.br<br>
+			<b>telefone: </b>(21) XXXX-XXXXX</p>
+  	</div>
+
+	  <div class="row">
+		  <table border="2" width="70%">
+			<tr>
+				<th>Unidade</th>
+				<th>Tradicional</th>
+				<th>Festivo</th>
+				<th>Heróico</th>
+			</tr>
+
+			<tr>
+				<td>1-10</td>
+				<td>R$3,00</td>
+				<td>R$3,50</td>
+				<td>R$4,00</td>
+			</tr>
+
+			<tr>
+				<td>11-20</td>
+				<td>R$2,50</td>
+				<td>R$3,00</td>
+				<td>R$3,50</td>
+				
+			</tr>
+
+			<tr>
+				<td>21-100</td>
+				<td>R$2,00</td>
+				<td>R$2,50</td>
+				<td>R$3,00</td>
+				
+			</tr>
+		</table>
+	</div>
+	
+	<div class="row">
+		<form>
+			<fieldset>
+				<legend>Detalhes de Contato</legend>
+
+				<div>
+					<label for="nome">Nome: </label>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+					</div>
+
+					<hr>
+
+					<div>
+						<label for="email">Email: </label>
+						<input type="text" name="email" id="email" placeholder="Digite seu email">
+					</div>
+					
+					<hr>
+					<legend>Mensagem:</legend>
+					<textarea placeholder="Digite seu Pedido"></textarea>
+
+					<div>
+						<input type="submit" value="Enviar">
+					</div>
+
+				</fieldset>
+			</form>
+		</div>
+</div>
+
+<style>
+
+  #area-principal {
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+body {
+	background: #CCC;
+}
+
+header {
+	background: #f7b600;
+	text-align: center;
+	padding: 8px 18px;
+  width: 100%
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+fieldset {
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid#ccc;
+	background: #f8f8f8;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	width: 70%;
+}
+
+textarea {
+	width: 70%;
+}
+
+.branco {
+	color: white;
+}
+
+.row {
+	width: 70%;
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.postagem {
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+
+
+td, th {
+	text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+</style>
+
+</body>

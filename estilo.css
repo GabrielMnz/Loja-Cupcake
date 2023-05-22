@@ -1,0 +1,86 @@
+#area-principal {
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+body {
+	background: #CCC;
+}
+
+header {
+	background: #f7b600;
+	text-align: center;
+	padding: 8px 18px;
+  width: 100%
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+fieldset {
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid#ccc;
+	background: #f8f8f8;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	width: 20em;
+}
+
+textarea {
+	width: 20em;
+}
+
+.branco {
+	color: white;
+}
+
+.row {
+	width: 660px;
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.postagem {
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+
+
+td, th {
+	text-align: center;
+}
+
+table {
+  margin: auto;
+}

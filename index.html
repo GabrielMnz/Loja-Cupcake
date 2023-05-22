@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<title>Cupcake</title>
+
+  <script>
+    var nome = (prompt("Digite o seu nome"));
+    alert ("Olá " + nome + ", faremos um desafio agora!!! \n");
+    alert ("O desafio é o seguinte, você tem que adivinhar a nota para este trabalho, ok?\n");
+
+    var nota = 0;
+    while (nota != 10) {
+        nota = (prompt("Digite o valor da nota\n"));
+        if (nota == 10) {
+            alert("Nota corretíssima, obrigado " + nome + "!!!\n");
+        } else {
+            alert("\nNota errada, tente de novo!");
+        }
+    }
+  </script>
+
+</head>
+
+<body>
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+    var nome = (prompt("Digite o seu nome"));
+    document.write("Olá " + nome + ", faremos um desafio      agora");
+    document.write ("O desafio é o seguinte, você tem que     adivinhar a nota para este trabalho, ok?");
+    var nota = (prompt("Digite o valor da nota"))v
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->    
+<div>
+	<header>
+		<div>
+			<h1>
+				Web <span class="branco">Cup</span>cake's
+			</h1>
+		</div>
+		
+		<div>
+			<a href="index.html">Home</a>
+			<a href="cupcakes.html">Cupcake's</a>
+			<a href="contato.html">Contato</a>
+		</div>
+		<hr>
+	</header>
+</div>
+  
+<div class="container">
+	<div class="row">
+		<h3>SOBRE NÓS</h3>
+		<img src="sobrenos.png" class="img-responsive" alt="sobre nós">
+		<p class="lead">
+			Com produtos de altíssima qualidade, oferecemos o melhor cupcake para suas reuniões, nossa fábrica conta com 30 funcionários capacitados e com os melhores equipamentos do mercado para o preparo.
+		</p>
+    <footer class="blockquote-footer">por <cite>Gabriel Menezes</cite></footer>
+	</div>
+
+	<div class="row">
+		<h3>ENTREGAS</h3>
+		<img src="delivery.jpg" width="100%" alt="entregas">
+		<p>
+			Nossas entregas se estendem a todo o Estado do Rio de Janeiro (RJ), diante da pandemia, nossa equipe de entregadores utiliza todos os equipamentos a fim de sua própria proteção e do cliente. 
+		</p>
+	</div>
+
+	<div class="row">
+		<h3>Embalagens</h3>
+		<img src="Imagens/embalagem1.jpg" width="100%" width="660" alt="embalagens recicláveis">
+		<p>
+			Alianhados com a situação do meio ambiente, somos grandes incentivadores da reciclagem, portanto, nosso material é todo reciclável, cerca de 5% do valor das compras é doado para ONGs empenhadas a mudar o cenário do nosso Estado em relação a reciclagem com propostas educativas nas redes socias.
+		</p>
+	</div>
+</div>
+<style>
+
+  #area-principal {
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+body {
+	background: #CCC;
+}
+
+header {
+	background: #f7b600;
+	text-align: center;
+	padding: 8px 18px;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+fieldset {
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid#ccc;
+	background: #f8f8f8;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	display: block;
+	cursor: pointer;
+}
+
+input {
+	width: 20em;
+}
+
+textarea {
+	width: 20em;
+}
+
+.branco {
+	color: white;
+}
+
+.row {
+  width: 70%;
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.postagem {
+	padding: 20px;
+	margin: 20px auto;
+	margin-bottom: 20px;
+	background: white;
+}
+
+td, th {
+	text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+</style>
+
+</body>
+</html>
